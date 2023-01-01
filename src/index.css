@@ -1,13 +1,121 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --primaryff : MarkaziText;
+  --primaryfs : 1.042vw;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ll-navbar{
+  padding:0;
+  background-color: #fff !important;
+  font-family: var(--primaryff);
+  font-size: var(--primaryfs);
+}
+.ll-navbar .ll-brand img{
+  height: 6.083vw;
+  width: 12.167vw;
+}
+
+/* Backstory */
+
+.backstory{
+  background-color: #495E57;
+  font-family: var(--primaryff);
+  padding: 2.083vw;
+}
+
+.backstory h1{
+  color: #F4CE14;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.333vw;
+  line-height: 5.01vw;
+}
+.backstory h4{
+  font-size: 3vw;
+  font-weight: 300;
+  color: #fff;
+}
+.banner-con{
+  display: flex;
+  justify-content: space-between;
+}
+.banner-con p{
+  font-size: 1.75vw;
+  color: #fff;
+  width: 35.833vw;
+}
+.banner-con button{
+  padding: 0.542vw 1vw;
+  font-size: 1.25vw;
+  border: 0;
+  background-color: #F4CE14;
+  border-radius: 0.521vw;
+}
+.banner-con img{
+  width: 22.417vw;
+  height: 22.417vw;
+  margin-right: 5vw;
+}
+
+/* Select */
+
+.rb-title{
+  text-align: center;
+  font:normal normal bold 2vw/2.25vw var(--primaryff);
+  margin-bottom: 4vw;
+}
+.rf-f-partition{
+  margin-bottom: 1.042vw;
+}
+.rf-select{
+  font:normal normal normal 1.25vw/1.25vw var(--primaryff);
+  width: 30.652vw;
+  height: 4.167vw;
+}
+.rf-btn{
+  padding: 0.542vw 1vw;
+  font-size: 1.25vw;
+  border: 0;
+  background-color: #F4CE14;
+  border-radius: 0.521vw;
+  margin-top: 2vw;
+}
+
+
+/* Customersay */
+
+.rating-con{
+  display: flex;
+  padding: 2vw; 
+}
+.rating-con .rtc-header{
+  font:normal normal bold 2vw/2vw var(--primaryff);
+}
+
+.rw-corousel{
+  width:52vw;
+  height: 15vw;
+}
+.carousel-control-prev{
+  display: none;
+}
+.carousel-control-next{
+  display: none;
+}
+.rw-caro-item{
+  width:50vw;
+  height: 12vw;
+  padding: 2vw;
+  margin: 0.5vw;
+  box-shadow: 0vw 0.15625vw 0.41666vw rgb(0 0 0 / 16%);
+}
+.rc-name{
+  font:normal normal normal 1.5vw/1.5vw Arial;
+  margin-bottom: 0.521vw;
+}
+.rc-rating{
+  font:normal normal normal 1.25vw/1.5vw Arial;
+  margin-bottom: 0.521vw;
+}
+.rc-desc{
+  font:normal normal normal 1vw/1.25vw Arial;
 }
